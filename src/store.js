@@ -42,12 +42,7 @@ const productsSlice = createSlice({
       { name: 'Pork', price: 200.0, image: '/images/pork.jpg' },
       { name: 'Beef', price: 600.0, image: '/images/Beef.jpg' },
       { name: 'Shrimp', price: 500.0, image: '/images/shrimp.jpg' },
-      { name: 'Shrimp', price: 140.0, image: '/images/shrimp.jpg' },
-      { name: 'Shrimp', price: 220.0, image: '/images/shrimp.jpg' },
-      { name: 'Shrimp', price: 700.0, image: '/images/shrimp.jpg' },
-      { name: 'Shrimp', price: 900.0, image: '/images/shrimp.jpg' },
-      { name: 'Shrimp', price: 1000.0, image: '/images/shrimp.jpg' },
-      
+
       
     ],
     chocolates: [
