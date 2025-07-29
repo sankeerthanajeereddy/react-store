@@ -18,7 +18,7 @@ function NonVeg() {
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedRanges, setSelectedRanges] = useState([]);
 
-  const itemsPerPage = 4;
+  const itemsPerPage = 6;
 
   // Filter products by selected price ranges
   const filteredProducts =

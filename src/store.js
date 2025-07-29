@@ -15,7 +15,7 @@ const productsSlice = createSlice({
       { name: 'Tomato', price: 1.5, image: '/images/tomato.jpg' },
       { name: 'Bottle Gourd', price: 10.89, image: '/images/bottle gourd.jpg' },
       { name: 'Bitter Gourd', price: 300.5, image: '/images/bittergourd.jpg' },
-      { name: 'Carrot', price: 250.5, image: '/images/carrot.jpg' },
+      { name: 'Carroot', price: 250.5, image: '/images/carroot.jpg' },
       { name: 'Broccoli', price: 100.5, image: '/images/download.jpeg' },
       { name: 'Pumpkin', price: 150.58, image: '/images/pumpkin.jpg' },
       { name: 'Cabbage', price: 120.45, image: '/images/cabbage.jpg' },
@@ -32,6 +32,10 @@ const productsSlice = createSlice({
       { name: 'String Beans', price: 33.5, image: '/images/stringbeans.jpg' },
       { name: 'Garlic', price: 150.5, image: '/images/garlic.jpg' },
       { name: 'Ladies Finger', price: 70.5, image: '/images/ladiesfinger.jpg' },
+       { name: 'amaranthus', price: 80.5, image: '/images/amaranthus.jpg' },
+        { name: 'beans', price: 90.5, image: '/images/beans.jpg' },
+         { name: 'chikudkaya', price: 100.5, image: '/images/chikudkaya.jpg' },
+          { name: 'pea', price: 85.5, image: '/images/pea.jpg' },
     ],
     nonveg: [
       { name: 'Chicken', price: 150.0, image: '/images/chicken.jpg' },
@@ -42,8 +46,16 @@ const productsSlice = createSlice({
       { name: 'Pork', price: 200.0, image: '/images/pork.jpg' },
       { name: 'Beef', price: 600.0, image: '/images/Beef.jpg' },
       { name: 'Shrimp', price: 500.0, image: '/images/shrimp.jpg' },
-
-      
+      { name: 'tuna fish', price: 900.0, image: '/images/tuna fish.jpg' },
+      { name: 'mutton livere', price: 200.0, image: '/images/mutton livere.jpg' },
+      { name: 'chicken liver', price: 120.0, image: '/images/chicken liver.jpg' },
+      { name: 'tiger prawns', price: 1200.0, image: '/images/tiger prawns.jpg' },
+      { name: 'chicken gizzard', price: 200.0, image: '/images/chicken gizzard.jpg' },
+      { name: 'small prawns', price: 500.0, image: '/images/small prawns.jpg' },
+      { name: 'rohu fish', price: 350.0, image: '/images/rohu fish.jpg' },
+      { name: 'eggs', price: 200.0, image: '/images/eggs.jpg' },
+      { name: 'chicken drumstick', price: 800.0, image: '/images/chicken drumstick.jpg' },
+      { name: 'boti', price: 100.0, image: '/images/boti.jpg' },
     ],
     chocolates: [
       { name: '5 Star', price: 150.0, image: '/images/5 star.jpg' },
