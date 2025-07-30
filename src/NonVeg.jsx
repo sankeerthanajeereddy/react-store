@@ -9,6 +9,7 @@ const priceRanges = [
   { id: 1, label: "₹0 - ₹200", min: 0, max: 200 },
   { id: 2, label: "₹201 - ₹500", min: 201, max: 500 },
   { id: 3, label: "₹501 - ₹1000", min: 501, max: 1000 },
+  { id: 4, label: "₹1000 - ₹1500", min:1000, max: 1500 },
 ];
 
 function NonVeg() {
